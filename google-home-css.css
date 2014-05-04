@@ -1,0 +1,128 @@
+
+.main {
+	font-family: arial, sans-serif;
+	font-size: .8em;
+}
+
+input[type=text] {
+	padding: 5px;
+}
+
+#search-bar {
+	position: absolute;
+	top: 13%;
+}
+
+#search-logo {
+	position: relative;
+	left: 85%;
+}
+
+#search-bar #search-box {
+	position: relative;
+	margin-top: 15px;
+	left: 70%;
+}
+
+
+#search-text {
+	background-image:url("http://callcharles.com/wp-content/uploads/2013/02/Microphone.png");
+	background-repeat: no-repeat;
+	background-position: 99%;
+	background-size: 20px 20px;
+	padding-top: 6px;
+	border: 1px solid #dcdcdc;
+}
+
+#search-text:hover {
+	border: 1px solid #ababab;
+}
+
+#search-button {
+	position: relative;
+	margin-top: 10px;
+	left: 100%;
+}
+
+#search-button input {
+	margin: 3px 6px;
+	padding: 10px 10px;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #f8f8f8;
+	border: 1px solid #dcdcdc;
+	border-radius: 3px;
+}
+
+#search-button input:hover {
+	border: 1px solid #ababab;
+}
+
+#nav-bar {
+	margin-top: -2px;
+}
+
+#nav-bar ul {
+ 	list-style: none;
+ 	float: right;
+ 	margin-right: 35px;
+}
+
+#nav-bar ul li {
+	display: inline-block;
+	padding: 0 9px;
+}
+
+#nav-bar img {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	border-radius: 100%;
+}
+
+#nav-bar ul li:hover {
+	text-decoration: underline;
+}
+
+#share {
+	background-color: #EEEEED;
+	padding: 15px;
+}
+
+#nav-bar ul #share:hover {
+	background-color: #D6D6D5
+	text-decoration: none;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	background-color: #EEEEED;
+	width: 99.3%;
+}
+
+.footer ul {
+	list-style: none;
+}
+
+.footer ul li {
+	display: inline-block;
+}
+
+.footer #left-footer {
+	float: left;
+}
+
+.footer #right-footer {
+	float: right;
+	position: relative;
+	right: 20px;
+}
+
+#left-footer li, #right-footer li {
+	padding: 0 10px 0 10px;
+}
+
+#left-footer li:hover, #right-footer li:hover {
+	text-decoration: underline;
+}
